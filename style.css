@@ -1,0 +1,520 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat : no-repeat;
+    height : 97vh;
+    position: relative;
+}
+
+.main .box{
+    width: 100%;
+    height: 97vh;
+    opacity : 0.7;
+    background-color: black;
+    position: absolute;
+    top : 0;
+}
+
+nav {
+    max-width: 80vw;
+    margin : auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding:1rem;
+}
+
+nav img {
+    color : red;
+    width : 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+
+}
+
+.text {
+    font-family : 'Martel Sans', sans-serif;
+    height: calc(100% - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color : white;
+    font-size: 2rem;
+    position: relative;
+    gap: 20px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.text> :first-child {
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+}
+.text> :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.text> :nth-child(3){
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.separation1{
+    background-color: rgb(59, 59, 59);
+    height: 8px;
+}
+
+.btn {
+    padding :8px;
+    width : 100px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(18, 16, 16, 0.104);
+}
+.btn img{
+    width: 15px;
+}
+
+.btn svg{
+    color:white;
+}
+
+.btn1{
+    padding: 8px;
+    width:75px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(245, 44, 44);
+    font-weight: bold;
+    color:white;
+}
+.btn2{
+    padding: 1rem;
+    width: 200px;
+    color : white;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    background-color: rgb(245, 44, 44);
+    border:none;
+}
+
+.text input{
+    color : white;
+}
+
+.main input{
+    padding: 1rem;
+    font-size: 19px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    width: 350px;
+    background-color: rgba(23,23,23,0.7); 
+}
+
+.first{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    
+}
+
+.sec-Img{
+    position: relative;
+   
+}
+
+.sec-Img img{
+    width: 36vw;
+    margin-left : 17%;
+    z-index: 10;
+    position: relative;
+} 
+
+.sec-Img video{
+    position: absolute;
+    top : 88px;
+    margin-left: 30%;
+    width: 26.3vw;
+}
+
+.text2{
+    font-family : 'Martel Sans', sans-serif;
+    margin-bottom: 6rem;
+    text-align: left;
+
+}
+
+.text2> :nth-child(1){
+    font-size: 45px;
+    font-weight: 900;
+    text-align: left;
+}
+.text2> :nth-child(2){
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.separation2{
+    background-color: rgb(59, 59, 59);
+    height: 8px;
+}
+
+
+.second{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    
+}
+
+.sec-Img1{
+    position: relative;
+   
+}
+
+.sec-Img1 img{
+    width: 30vw;
+ 
+} 
+
+.text3{
+    font-family : 'Martel Sans', sans-serif;
+    margin-bottom: 6rem;
+    text-align: left;
+}
+
+.text3> :nth-child(1){
+    font-size: 45px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.text3> :nth-child(2){
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.separation3{
+    background-color: rgb(59, 59, 59);
+    height: 8px;
+}
+
+.third{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    
+}
+
+.sec-Img2{
+    position: relative;
+   
+}
+
+.sec-Img2 img{
+    width: 36vw;
+    margin-left : 17%;
+    z-index: 10;
+    position: relative;
+} 
+
+.sec-Img2 video{
+    position: absolute;
+    top : 88px;
+    margin-left: 37%;
+    width: 20vw;
+}
+
+.text4{
+    font-family : 'Martel Sans', sans-serif;
+    margin-bottom: 6rem;
+    text-align: left;
+    gap:1rem;
+}
+
+.text4> :nth-child(1){
+    font-size: 45px;
+    font-weight: 900;
+    text-align: left;
+}
+.text4> :nth-child(2){
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.separation4{
+    background-color: rgb(59, 59, 59);
+    height: 8px;
+}
+
+.fourth{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    
+}
+
+.sec-Img3{
+    position: relative;
+   
+}
+
+.sec-Img3 img{
+    width: 33vw;
+ 
+} 
+
+.text5{
+    font-family : 'Martel Sans', sans-serif;
+    margin-bottom: 6rem;
+    text-align: left;
+}
+
+.text5> :nth-child(1){
+    font-size: 45px;
+    font-weight: 900;
+    text-align: left;
+   
+}
+
+.text5> :nth-child(2){
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.separation5{
+    background-color: rgb(59, 59, 59);
+    height: 8px;
+}
+
+.faq{
+
+    height:100vh;
+    padding:4rem;
+}
+
+.faq h2{
+    color:white;
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.faqbox{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.7rem;
+    margin-top:1rem;
+    margin-left:7.5rem;
+    width: 1100px;
+    background-color: rgb(45, 45, 45);
+    color:white; 
+    font-size: 23px;
+    font-weight: 400;
+    position: relative;
+}
+
+.faqbox:hover{
+    background-color: #414141;
+    transition: all ease-in-out 1000;
+}
+
+.faqbox svg{
+    color:white;
+}
+
+.abc{
+    margin-top: 0.30rem;
+    font-size: 20px;
+    font-weight: 400;
+    color:white;
+    text-align: center;
+}
+
+p{
+    padding:1rem;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+.abc input{
+    padding: 1rem;
+    font-size: 19px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    width: 350px;
+    background-color: rgba(23,23,23,0.7); 
+ }
+
+.separation6{
+    margin-top: 2rem;
+    background-color: rgb(59, 59, 59);
+    height: 8px;
+}
+
+footer{
+    color:  rgba(255, 255, 255, 0.7);
+    margin-left: 8rem;
+    margin-top: 4rem;
+    padding:5rem;
+}
+
+footer span{
+    margin-left: 2.2rem;
+}
+
+.footer{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 2rem;
+    height: 25vh;
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-items a{
+    color: rgba(255, 255, 255, 0.7);
+    padding:0.30rem;
+}
+
+#box{
+    display: flex;
+    justify-content: space-between;
+    height:100px;
+    width: 300px;
+    border:1px solid rgba(255, 255, 255, 0.3);
+    border-radius:1rem;
+    margin-left:4.5rem;
+
+}
+
+#box p{
+    color:white;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+#box span{
+    color:blue;
+}
+
+
+#box img{
+    padding:4px;
+    height:80px;
+    width: 70px;
+    margin-left:1rem;
+   
+}
+
+#GIF img{
+    width:3rem;
+    height:3rem;
+    margin-top:1rem;
+}
+
+
+
+
+/* 
+.faqbox {
+    position: relative;
+  }
+  
+  .faqbox span {
+    cursor: pointer;
+  }
+  
+  .faqbox span::after {
+    content: "\25BC";
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .faqbox:hover span::after {
+    content: "\25B2";
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .faqbox:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  } */
